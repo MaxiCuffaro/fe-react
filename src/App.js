@@ -13,9 +13,9 @@ import{Routes,Route, BrowserRouter as Router} from "react-router-dom"
 function App() {
   return (
     <>
-    
+ 
      <Router>
-     <div className="container pt-5 mt-5">
+     <div className="titulo px-4 py-2 m-0 alaing-items-center col-12  pt-5 mt-5 ">
         <Menu />
 
        <Routes>

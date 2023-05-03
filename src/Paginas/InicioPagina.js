@@ -8,14 +8,14 @@ export default class InicioPagina extends React.Component {
     render (){
         return(
         <>
-        <h2>Inicio</h2>
-       <p>Bienvenido a Ok perfumes espero que tengan lindo dia :D</p>
+        <h2><strong><u>Inicio</u></strong></h2>
+        <p class="text-muted col-12">Bienvenido a Ok perfumes espero que tengan lindo dia :D</p>
        <Mision />
        <Nosotros />
-       <ContactoPagina />    
-       
+    
+    <footer>  <address> ©Maxi Cuffaro(2023)</address></footer>
+    </>
 
-        </>
       
   
         )

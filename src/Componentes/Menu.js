@@ -6,7 +6,7 @@ export default class Menu extends React.Component {
     render (){
 
         return(
-            <div className="row fixed-top px-4 py-2 m-0 bg-white">
+            <div className="row fixed-top px-4 py-2 m-0 bg-warning col-12">
                 <div className="col-12 d-flex align-items-center">
                     <h1>Ok Perfumes</h1>
                     <Link to="/" className="mx-3">Inicio </Link>
