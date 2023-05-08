@@ -13,7 +13,7 @@ export default class InicioPagina extends React.Component {
        <Mision />
        <Nosotros />
     
-    <footer>  <address> ©Maxi Cuffaro(2023)</address></footer>
+    
     </>
 
       

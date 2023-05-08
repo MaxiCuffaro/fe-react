@@ -3,6 +3,7 @@ import ListaArtistas from "../Componentes/ListaArtistas";
 
 export default class Nosotros extends React.Component {
    
+
    artistas = [
 
     {nombre: 'Olympea',
@@ -18,6 +19,7 @@ descripcion:'Una fragancia oriental íntima e intensa. Explorar como un sensual 
 img:'./img/good.rojo.jpg',
 descripcion:'El lado misterioso de Good Girl se expresa con el rico y fragante cacao y la embriagadora haba tonka, mientras que la almendra y el café le aportan notas de audaz vitalidad.'}
    ]
+
    
     render (){
 

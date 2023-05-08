@@ -68,7 +68,7 @@ export default class ContactoPagina extends React.Component {
                 <textarea className= "form-control" placeholder="Dejanos tu mensaje" value={this.state.mensaje} onChange={this.changedTextArea}></textarea>
             </div>
             <button type="submit" className= "btn btn-outline-primary m-3 px-3" >Enviar </button>
-            
+           
        </form>
        </>
         )
