@@ -56,21 +56,23 @@ export default class ContactoPagina extends React.Component {
 
     render (){
         return(
-       <>
+       
+       <div className="pt-5 mt-5 height:100% ;">
        <h2> Contacto</h2>
        <form onSubmit={this.submitted}>
-         <div className=" form-group my-2 col-12">
+         <div className="form-group aling-items-center col-12 ">
             <label> <u> Nombre </u> </label>
             <input type="text" className="form-control" placeholder="Ingresa tu nombre" onChange={this.changed} value={this.state.nombre} />
          </div>
-          <div className="form-group my-2 col-12">
+          <div className=" form-group col-12 aling-items-center height:100% ;">
                 <label> <u> Mensaje </u></label>
                 <textarea className= "form-control" placeholder="Dejanos tu mensaje" value={this.state.mensaje} onChange={this.changedTextArea}></textarea>
             </div>
             <button type="submit" className= "btn btn-outline-primary m-3 px-3" >Enviar </button>
            
        </form>
-       </>
+       </div>
+       
         )
     }
 }

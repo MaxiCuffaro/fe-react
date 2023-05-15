@@ -1,5 +1,11 @@
-.titulo
-{ background-image: linear-gradient(skyblue, yellow);}
+
+{
+   
+    background-color: aqua;
+    background: linear-gradient( skyblue, yellow);
+}
 
 .proyecto
-{display: flex; }
+{display: flex; 
+  
+}

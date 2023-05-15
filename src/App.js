@@ -12,10 +12,10 @@ import{Routes,Route, BrowserRouter as Router} from "react-router-dom"
 
 function App() {
   return (
-    <>
+    <div className="pt-5 mt-5 height:100% ;" >
  
      <Router>
-     <div className="titulo px-4 py-2 m-0 alaing-items-center col-12  pt-5 mt-5 ">
+
         <Menu />
 
        <Routes>
@@ -26,12 +26,9 @@ function App() {
           <Route path='/lanzamientos' element={<LanzamientosPagina />} />
        </Routes>
     
-      
-  
- 
-      </div>
+    
     </Router>
-    </>
+    </div>
   );
 }
 

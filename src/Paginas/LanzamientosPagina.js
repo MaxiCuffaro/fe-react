@@ -23,11 +23,13 @@ constructor (props) {
 
 render() {
     return(
-        <>
+        <div>
         {this.state.lanzamientos.map((lanzamiento)  => (
          <p>{lanzamiento.title} ({lanzamiento.date})</p>   
         ))};
-        </>
+
+        </div>
+        
     );
 }
 }
